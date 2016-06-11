@@ -15,3 +15,8 @@ let kAppAuthHeader:String   = "YOUR AUTH HEADER"
 `APIs used:-`
 
 [Orange API](https://developer.orange.com/apis/orangeradio/api-reference)
+
+The App currently uses channels from France, to change this put the rigt country code in *ViewController.swift*
+```
+self.musicStore = MusicStore(countryCode: "fr")
+```
